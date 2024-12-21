@@ -19,14 +19,3 @@ completed=false).
 - PUT /items/{item_id}: Обновление задачи по ID.
 - DELETE /items/{item_id}: Удаление задачи.
 
-## Инструкция
-
-### Локальный запуск
-- Установить зависимости: pip install -r requirements.txt
-- Запустить сервер: uvicorn main:app --reload
-- Открыть в браузере: http://127.0.0.1:8000/docs
-
-### Запуск через Docker
-- Собрать Docker-образа: docker build -t todo-service .
-- Запустить контейнер: docker run -d -p 8000:80 -v todo_data:/app/data todo-service
-- Открыть в браузере: http://127.0.0.1:8001/docs
