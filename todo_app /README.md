@@ -15,11 +15,11 @@ completed=false).
 ## Инструкция
 
 ### Локальный запуск
-Установите зависимости: pip install -r requirements.txt
-Запустите сервер: uvicorn main:app --reload
-Откройте в браузере: http://127.0.0.1:8000/docs
+- Установить зависимости: pip install -r requirements.txt
+- Запустить сервер: uvicorn main:app --reload
+- Открыть в браузере: http://127.0.0.1:8000/docs
 
-Запуск через Docker
-Сборка Docker-образа: docker build -t todo-service .
-Запуск контейнера: docker run -d -p 8000:80 -v todo_data:/app/data todo-service
-Запуск в браузере: http://127.0.0.1:8000/docs
+### Запуск через Docker
+- Сборка Docker-образа: docker build -t todo-service .
+- Запустить контейнер: docker run -d -p 8000:80 -v todo_data:/app/data todo-service
+- Открыть в браузере: http://127.0.0.1:8001/docs
