@@ -47,7 +47,7 @@ completed=false).
 ![image](https://github.com/user-attachments/assets/deea9600-da21-463c-89f6-8ecfd1b61fd4)
 
 - PUT /items/{item_id}: Обновление задачи по ID.
-- 
+
 ![image](https://github.com/user-attachments/assets/c2e07629-d621-4fa6-956a-c9c3137187e7)
 
 - DELETE /items/{item_id}: Удаление задачи.
