@@ -29,7 +29,7 @@
 - Запустить контейнер: ``` docker run -d -p 8003:80 -v shorturl_data:/app/data shorturl-service ```
 - Открыть в браузере: ``` http://127.0.0.1:8003/docs ```
 
-Примеры:
+##Примеры:
 - POST /shorten: Принимает полный URL (JSON: {“url”:"…"}) и возвращает короткую ссылку.
 ![image](https://github.com/user-attachments/assets/b31de943-eaec-4661-abef-4b4684a0c731)
 - GET /{short_id}: Перенаправляет на полный URL, если он существует.
